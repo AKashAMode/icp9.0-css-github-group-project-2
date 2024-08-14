@@ -36,3 +36,75 @@
 .text-tertiary{
     color: #f9bc60;
 }
+
+/*NAVBAR*/
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
+.navbar-container{
+    height: 60px;
+    margin: 0px;
+    padding: 2px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-menu{
+    border: #abd1c6 solid 1px;
+    border-radius: 4px;
+    padding: 4px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    }
+        
+.navbar-menu:hover{
+    background-color: #abd1c6;
+    color: #001e1d;
+    transition: 0.3s;
+}
+        
+.logo{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 10px;
+    width: 60px;
+    text-align: end;
+    display:flex;
+    flex-direction: column;
+}
+        
+span{
+    color: #f9bc60;
+}
+        
+.navbar-mid-sec{
+    width: 280px;
+}
+
+/*MENUBAR*/
+.menubar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 70px;
+    margin: 0px;
+    padding: 0px 260px 0px 260px;
+    height: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+        
+.menu-item{
+    margin: 0px;
+    padding: 3px 60px;  
+    font-size: 17px;
+}
+    
+.menu-item:hover{
+    color: #abd1c6;
+    background-color: #001e1d;
+}
