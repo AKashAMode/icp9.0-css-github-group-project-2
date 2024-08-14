@@ -2,8 +2,73 @@
 <html>
 <head>
     <title>Home Page</title>
+    <link href="./css/style.css" rel="stylesheet"></link>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+        
+       body{
+        background-color: #004643;
+        margin: 0px;
+        padding: 0px;
+       }
+       .flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-container{
+            height: 40px;
+            padding: 2px 20px;
+        }
+        .navbar-menu{
+            border: #abd1c6 solid 1px;
+            border-radius: 4px;
+            padding: 4px;
+            width: 80px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .navbar-menu:hover{
+            background-color: #abd1c6;
+            color: #001e1d;
+        }
+        .logo{
+            font-family: Merriweather ;
+            font-weight: bold;
+            font-size: 10px;
+            width: 60px;
+            text-align: end;
+            display:flex;
+            flex-direction: column;
+        }
+        .the{
+            margin: 0px;
+        }
+        .great-outdoors{
+            margin: 0px;
+        }
+        span{
+            color: #f9bc60;
+        }
+        .navbar-mid-sec{
+            width: 280px;
+        }
+    </style>
 </head>
 <body>
+    <!--navbar-->
+    <div class="navbar-container flex text-secondary bg-dark">
+        <div class="logo">
+            <p class="the"><span>T</span>he</p>
+            <p class="great-outdoors"> Grea<span>t</span> Ou<span>t</span>doors</p>
+        </div>
+        <div class="navbar-mid-sec flex">
+            <p class="home navbar-menu">Home</p>
+            <p class="navbar-menu">Books</p>
+        </div>
+        <p class="navbar-menu">Contact Us</p>
+    </div>
+
     <h1>Home Page</h1>
 </body>
 </html>

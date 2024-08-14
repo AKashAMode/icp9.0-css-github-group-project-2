@@ -1,0 +1,38 @@
+.heading-text{
+    color: #fffffe;
+}
+
+.main-text{
+    color: #e8e4e6;
+}
+
+.bg-dark{
+    background-color: #001e1d;
+}
+
+.text-dark{
+    color: #001e1d;
+}
+
+.bg-primary{
+    background-color: #004643;
+}
+
+.text-primary{
+    color: #004643;
+}
+
+.bg-secondary{
+    background-color: #abd1c6;
+}
+
+.text-secondary{
+    color: #abd1c6;
+}
+.bg-tertiary{
+    background-color: #f9bc60;
+}
+
+.text-tertiary{
+    color: #f9bc60;
+}
