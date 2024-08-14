@@ -1,3 +1,9 @@
+body{
+    background-color: #004643;
+    margin: 0px;
+    padding: 0px;
+}
+
 .heading-text{
     color: #fffffe;
 }
