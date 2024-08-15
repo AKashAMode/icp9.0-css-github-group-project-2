@@ -8,13 +8,91 @@
         .h1{
             font-size: 40px;
             font-family: cursive;
-            color: deeppink;
-            text-shadow: 2px 2px black;
+            color:#001e1d;
+            text-shadow: 2px 2px #abd1c6;
             text-align: center;
+            margin: 0px;
         }
+        .navbar{
+            background-color:#004643 ;
+            margin:none;
+            padding-left: 20px;
+            display: flex;
+            border-radius: 10px;
+            height: 120px;
+            
+
+        }
+        
+        .div_1{
+            font-family:cursive;
+            text-shadow: 1px 1px gray;
+            font-weight: bold;
+            font-size: 15px;
+            width: 120px;
+            text-align: end;
+            display:flex;
+            flex-direction: column;
+            margin-right: 40px;
+            color: #abd1c6;
+           
+        }
+        .div_2{
+            margin-left: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        
+        }
+       .menu_item{
+            padding: 17px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+       .menu_item:hover{
+        color: #f9bc60;
+        background-color: #abd1c6;
+        border-radius: 50px;
+       font-weight:600;
+       }
+       .nav_img{
+        width: 40px;
+        background-color: #004643;
+        border-radius: 50%;
+        border: 2px solid gray;
+       }
+       .nav_img:hover{
+        box-shadow: 2px 2px 10px 2px rgb(42, 37, 37);
+       }
+       .img_2{
+        height: 500px;
+        width:800px;
+       }
     </style>
 </head>
 <body>
-     <h1 class="h1">The Ocean Creatures..!</h1>
+    <h1 class="h1">The Ocean Creatures..!</h1>
+     <div class="navbar"> 
+        <div class="div_1">
+         <p>
+         <span style="color: #f9bc60; text-align: end;"><img src="./../imgs/water_animal _1.jpg" class="nav_img"> &nbsp;T</span>he<br>
+         Ocea<span style="color: #f9bc60;text-align: end;">n</span> <br>
+         <span style="color: #f9bc60;">C</span>reatures..!
+         </p>
+        </div>
+         <div class="div_2">
+            <span class="menu_item">Cutlassfish</span>
+            <span class="menu_item" >Phronima</span>
+            <span class="menu_item" >Axolotl</span>
+            <span class="menu_item" >Barie sea pig</span>
+            <span class="menu_item">Blue glaucus</span>
+            <span class="menu_item">Sea bunny</span>
+            <span class="menu_item">Leaf slug</span>
+            <span class="menu_item">Spider</span>
+            <span class="menu_item">Glass octopus</span>
+            <span class="menu_item">Flying gurnard</span>
+         </div>
+     </div>
+    
 </body>
 </html>
