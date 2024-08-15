@@ -21,6 +21,17 @@ body {
     color: #001e1d;
 }
 
+/*price stylying */
+.price-text{
+    color: #001e1d;
+    font-size: large;
+}
+
+/*buy button style*/
+.buy-btn{
+
+}
+
 /* Header Styling */
 header {
     background-color: #004643;
@@ -84,7 +95,7 @@ main {
 
 .card-title {
     font-size: 1.5em;
-    color: #abd1c6 ;
+    color:#001e1d ;
     margin-bottom: 10px;
 }
 
