@@ -39,6 +39,11 @@ margin: 9px auto;
 
 }
 
+.buy-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 10px #e6b800;
+}
+
 /* Header Styling */
 header {
     background-color: #004643;
