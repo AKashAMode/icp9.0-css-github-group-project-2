@@ -29,6 +29,13 @@ body {
 
 /*buy button style*/
 .buy-btn{
+    background-color: #f9bc60;
+color: #001e1d;
+border-radius:  20px;
+padding: 5px 20px;
+border: 2px solid #e6b800;
+display: block;
+margin: 9px auto;
 
 }
 
