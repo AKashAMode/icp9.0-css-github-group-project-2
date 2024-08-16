@@ -1,19 +1,10 @@
-/*MENU CONTENT*/
-h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    font-size: 125px;
-    padding-left: 20px;
-    margin: 190px 0px 100px 80px;
-    border-left:solid 15px  #f9bc60;
-}
-        
+/*MAIN IMG*/    
 .main-img{
     width: 1519px;
     height: 685px;
 }
 
-/*SUB CONTENT*/
+/*CONTENT*/
 .img2-container{
     margin: 150px 150px;
     width: 1200px;
@@ -21,6 +12,7 @@ h1{
     font-size: 24px;
     padding: 10px;
 }
+
 .img2-text{
     margin-bottom: 60px;
 }
@@ -33,26 +25,29 @@ h1{
     padding: 190px 200px;
     font-family: Merriweather;
 }
+
 .menu-h2{
     font-size: 40px;
 }
-.menu-sub-text{
-}
+
 .menu-items{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .menu-item{
     width: 500px;
     margin: 35px;
     border-radius: 3px;
     border: 10px double #004643 ;
 }
+
 .menu-item:hover{
     box-shadow: 0px 0px 10px 6.5px ;
     transition: 0.2s;
 }
+
 .water-bodies{
     width: 1100px;
     height: 350px;
