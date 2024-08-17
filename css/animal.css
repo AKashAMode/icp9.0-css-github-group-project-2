@@ -76,10 +76,17 @@
 
 /* main-section-contain-styling------------------------- */
 
+/* .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+} */
+
 .animal-card{
-    border: 2px solid #000;
-    width: 350px;
+    border: 2px solid #d8d8d8;
+    width: 320px;
+    height: 360px;
     margin: 80px;
+    border-radius: 10px;
 
 }
 
@@ -116,16 +123,13 @@
 
 .card-info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .name-contain{
     text-align: center;
 }
 
-.name-contain img{
-    
-}
 
 .buttom-margin{
     margin-bottom: 20px;
@@ -153,4 +157,8 @@
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.learn-more-btn:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
