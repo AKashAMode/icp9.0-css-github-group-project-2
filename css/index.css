@@ -53,3 +53,16 @@
     height: 350px;
 }
 
+/*species-info*/
+.species-info{
+    font-size: 25px;
+    font-family: Merriweather;
+    text-align: center;
+
+}
+
+.species-info-heading{
+    font-weight: 1000;
+    font-size: 30px;
+    margin: 60px 0px;
+}
