@@ -78,12 +78,51 @@
 
 .animal-card{
     border: 2px solid #000;
-    width: 200px;
+    width: 350px;
     margin: 80px;
+
+}
+
+.img-contain{
+    position: relative;
+    width: 100%;
 
 }
 
 .animal-img{
     width: 100%;
     display: block;
+    
+}
+
+.overlayer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.ani-name{
+    font-size: 30px;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-contain{
+    text-align: center;
+}
+
+.buttom-margin{
+    margin-bottom: 20px;
 }
