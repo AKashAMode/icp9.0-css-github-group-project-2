@@ -123,6 +123,34 @@
     text-align: center;
 }
 
+.name-contain img{
+    
+}
+
 .buttom-margin{
     margin-bottom: 20px;
+}
+
+.card-png{
+    height: 25px;
+    width: 25px;
+    display: block;
+   margin: 5px auto;
+}
+
+.card-footer{
+    text-align: center;
+    padding: 10px;
+    background: #e0f7e9;
+}
+
+.learn-more-btn{
+
+    text-decoration: none;
+    background: #72d475;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
