@@ -2,8 +2,71 @@
 <html>
 <head>
     <title>Home Page</title>
+    <link href="./css/style.css" rel="stylesheet"></link>
+    <link href="./css/index.css" rel="stylesheet"></link>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+    </style>
 </head>
 <body>
-    <h1>Home Page</h1>
+    <!--NAVBAR-->
+    <div class="navbar-container flex text-secondary bg-dark">
+        <div class="logo">
+            <p>
+                <span>T</span>he<br/>
+                Grea<span>t</span>
+                Ou<span>t</span>doors
+            </p>
+        </div>
+        <div class="navbar-mid-sec flex">
+            <p class="navbar-menu">Home</p>
+            <p class="navbar-menu">Books</p>
+        </div>
+        <p class="navbar-menu">Contact Us</p>
+    </div>
+
+    <!--MENUBAR-->
+    <div class="menubar text-dark">
+        <p class="menubar-item">Animals</p>
+        <p class="menubar-item">Birds</p>
+        <p class="menubar-item">Insects</p>
+        <p class="menubar-item">Plants</p>
+        <p class="menubar-item">Water Bodies</p>
+    </div>
+
+    <!--MAIN HEADING-->
+    <h1 class=" main-heading text-secondary">The<br/>Great<br/>Outdoors</h1>
+
+    <!--MAIN IMG-->
+    <img class="main-img" src="./imgs/home-main-img.jpg">
+
+    <!--CONTENT-->
+    <div class="img2-container text-secondary">
+        <i>
+            <p class="img2-text"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sapiente velit quasi quod, laudantium modi sit culpa placeat inventore architecto suscipit. Inventore vel consequatur asperiores veniam reiciendis amet molestias? Excepturi!"</p>
+            <img class="img2" src="./imgs/home-water-bodies-img.jpg">
+            <p>Name</p>
+        </i>
+    </div>
+
+    <!--MENU ITEMS-->
+    <div class="menu-items-container bg-secondary ">
+        <h2 class="menu-h2 text-dark">Get to know more...</h2>
+        <p class="menu-sub-text text-primary">ABOUT THE WEIRD BUT INCREDIBLE CREATURES OF THE WORLD.</p>
+        <div class="menu-items">
+            <img class="menu-item" src="./imgs/okapi-img.jpg">
+            <img class="menu-item" src="./imgs/main-bird-img.jpg">
+            <img class="menu-item" src="./imgs/main-insect-img.avif">
+            <img class="menu-item" src="./imgs/main-plant-img4.jpg">
+            <img class="menu-item water-bodies" src="./imgs/main-long-water-body-img.jpg">
+        </div>
+    </div>
+
+    <div  class="species-info text-secondary">
+        <p class="species-info-heading">Importance to protect all species</p>
+        <p>Species and their populations are the building blocks of ecosystems, individually and collectively securing the conditions for life. They provide food, medicine and raw materials. They are the basis of soil formation, decomposition, water filtration and flow, pollination, pest control and climate regulation.</p>
+    </div>
+    
+    <!--FOOTER-->
 </body>
 </html>

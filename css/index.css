@@ -1,0 +1,68 @@
+/*MAIN IMG*/    
+.main-img{
+    width: 1519px;
+    height: 685px;
+}
+
+/*CONTENT*/
+.img2-container{
+    margin: 150px 150px;
+    width: 1200px;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.img2-text{
+    margin-bottom: 60px;
+}
+
+/*MENU ITEMS*/
+.menu-items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 190px 200px;
+    font-family: Merriweather;
+}
+
+.menu-h2{
+    font-size: 40px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item{
+    width: 500px;
+    margin: 35px;
+    border-radius: 3px;
+    border: 10px double #004643 ;
+}
+
+.menu-item:hover{
+    box-shadow: 0px 0px 10px 6.5px ;
+    transition: 0.2s;
+}
+
+.water-bodies{
+    width: 1100px;
+    height: 350px;
+}
+
+/*species-info*/
+.species-info{
+    font-size: 25px;
+    font-family: Merriweather;
+    text-align: center;
+
+}
+
+.species-info-heading{
+    font-weight: 1000;
+    font-size: 30px;
+    margin: 60px 0px;
+}
