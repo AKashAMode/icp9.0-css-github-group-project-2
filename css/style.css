@@ -124,3 +124,34 @@ h1{
     margin: 190px 0px 100px 80px;
     border-left:solid 15px  #f9bc60;
 }
+
+/*FOOTER*/
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-logo{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 50px;
+    width: 60px;
+    text-align: end;
+    display:flex;
+    flex-direction: row;
+}
+
+.footer-menu{
+    margin: auto 0px;
+}
+
+.footer-icons-container{
+    margin: auto 0px;
+}
+
+.footer-icons{
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+}
