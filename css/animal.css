@@ -81,13 +81,21 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 } */
 
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 45px;
+
+}
+
 .animal-card{
     border: 2px solid #d8d8d8;
     width: 320px;
     height: 360px;
-    margin: 80px;
     border-radius: 10px;
-
+    margin-bottom: 25px;
+    position: relative;
 }
 
 .img-contain{
@@ -149,7 +157,6 @@
 }
 
 .learn-more-btn{
-
     text-decoration: none;
     background: #72d475;
     color: #fff;
@@ -157,6 +164,7 @@
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
+  
 }
 
 .learn-more-btn:hover{
