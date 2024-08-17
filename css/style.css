@@ -130,6 +130,7 @@ h1{
     display:flex;
     justify-content: space-around;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
 
 .footer-logo{
