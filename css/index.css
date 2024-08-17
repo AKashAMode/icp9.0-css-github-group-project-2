@@ -17,12 +17,16 @@
     margin-bottom: 60px;
 }
 
+.img2{
+    height: 580px;
+}
+
 /*MENU ITEMS*/
 .menu-items-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 190px 200px;
+    padding: 190px 150px;
     font-family: Merriweather;
 }
 
@@ -32,7 +36,7 @@
 
 .menu-items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -46,11 +50,6 @@
 .menu-item:hover{
     box-shadow: 0px 0px 13px 10px ;
     transition: 0.2s;
-}
-
-.water-bodies{
-    width: 1100px;
-    height: 350px;
 }
 
 /*species-info*/
