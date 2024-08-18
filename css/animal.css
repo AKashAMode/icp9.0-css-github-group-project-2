@@ -54,8 +54,12 @@
     height: 250px;
     border:none;
     border-radius: 20px;
-    
 
+}
+
+.video-width:hover{
+  
+    opacity: 5px;
 }
 
 
