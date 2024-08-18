@@ -76,10 +76,6 @@
 
 /* main-section-contain-styling------------------------- */
 
-/* .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-} */
 
 .card-container{
     display: flex;
@@ -92,21 +88,29 @@
 .animal-card{
     border: 2px solid #d8d8d8;
     width: 320px;
-    height: 360px;
     border-radius: 10px;
     margin-bottom: 25px;
     position: relative;
 }
 
+.animal-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
 .img-contain{
     position: relative;
     width: 100%;
-
+  
 }
 
 .animal-img{
     width: 100%;
     display: block;
+    height: 175px;
     
 }
 
