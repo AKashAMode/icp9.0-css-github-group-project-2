@@ -3,56 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./../css/water_animal.css">
+      <link rel="stylesheet" href="./../css/index.css">
+      <link rel="stylesheet" href="./../css/style.css">
     <title>Water Animal</title>
     <style>
-        .h1{
+      .title_div{
+        background-color: #e16162;
+        height: 100px;
+        width: 100%;
+      }
+
+        .h1{ 
             font-size: 40px;
             font-family: cursive;
             color:#001e1d;
             text-shadow: 2px 2px #abd1c6;
             text-align: center;
-            margin: 0px;
+            margin:0px;
         }
+       
+        
         .navbar{
             background-color:#001e1d;
             margin:none;
             padding-left: 20px;
             display: flex;
-            height: 120px;
-            margin-bottom: 0px;;
-            
+            height: 70px;
+            margin-bottom: 0px;
+            margin-top: 15px;
+            position: fixed;
+            width: 100%;
+    
 
         }
         
-        .div_1{
-            font-family:cursive;
-            text-shadow: 1px 1px gray;
-            font-weight: bold;
-            font-size: 15px;
-            width: 120px;
-            text-align: end;
-            display:flex;
-            flex-direction: column;
-            margin-right: 40px;
-            color: #abd1c6;
-           
-        }
+        
         .div_2{
-            margin-left: 35px;
+    
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-        
+            position:sticky;
+    
         }
        .menu_item{
-            padding: 17px;
+            padding: 25px;
             font-size: 25px;
             cursor: pointer;
             color:whitesmoke;
+            
         }
        .menu_item:hover{
-        color: #f9bc60;
-        background-color: #abd1c6;
+        color: #001e1d;
+        background-color: #f9bc60;
         border-radius: 50px;
        font-weight:600;
        }
@@ -65,6 +69,7 @@
        .nav_img:hover{
         box-shadow: 2px 2px 10px 2px rgb(167, 64, 64);
        }
+      
        .img_1{
         height: 500px;
         width:835px;
@@ -97,12 +102,12 @@
         text-align: center;
         color:#abd1c6;
         text-shadow: 0.7px 0.7px #e16162;
-        margin-bottom: 0px;
-        margin: 0px;
+        margin-bottom: 20px;
+       margin-top: 0px;
        }
        .card_container{
-        background-color:rgb(155, 195, 195);
-        height: 400px;
+        background-color:#004643;
+        height: 850px;
         width: 100%;margin-top: 0px;
         padding-right: 10px;
         display: flex;
@@ -111,23 +116,32 @@
 
        }
        .card{
-        background-color:red;
-        height: 300px;
-        width: 200px;
-        margin-left: 65px;
-        margin-right: 70px;
+        background-color:#004643;
+        height: 350px;
+        width: 250px;
+        margin-left: 40px;
+        margin-right:40px;
         justify-content: space-around;
-     
+        border-radius: 20px;
+        border:  2px solid #001e1d;
+       }
+       .card:hover{
+         box-shadow: 10px 10px 20px 4px #001e1d;
        }
        .card_1{
-        background-color:red;
-        height: 300px;
-        width: 200px;
-        margin-left: 65px;
-        margin-right: 70px;
+        background-color:#004643;
+        height: 350px;
+        width: 250px;
+        margin-left: 40px;
+        margin-right:40px;
         margin-top: 90px;
         justify-content: space-around;
+        border-radius: 20px;
+        border:  2px solid #001e1d;
      
+       }
+       .card_1:hover{
+        box-shadow: 10px 10px 20px 4px #001e1d;
        }
 
        .card_heading{
@@ -135,6 +149,9 @@
         font-size: 25px;
         font-family: cursive;
 
+       }
+       .card_heading:hover{
+        color: #f9bc60;
        }
        .card_img{
         height: 130px;
@@ -155,7 +172,7 @@
         font-size: 17px;
        }
        .arrow{
-        height: 20px;
+        height: 15px;
         width: 20px;
        }
        .anchor{
@@ -163,36 +180,203 @@
         font-size: bold;
         text-align: center;
        }
+
+
+
+       /*second page  */
+       
+       
+
+       .info_div{
+        background-color: #abd1c6;
+        height: 540px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        padding-top: 20px;
+       }
+       .p1{
+        font-family: cursive;
+        font-size: 30px;
+        text-align: center;
+        color:#001e1d;
+        text-shadow: 0.7px 0.7px #e16162;
+        margin-bottom: 0px;
+       padding-top:20px;
+       background-color: #abd1c6;
+       }
+       .img_div{
+        height: 350px;
+        width: 300px;
+        background-color: #e16162;
+        padding: 10px;
+        margin-right: 50px;
+        margin-top:80px;
+    
+       }
+       .img_div_img{
+        height: 100%;
+        width: 100%;
+       }
+       .para_div{
+         height: 530px;
+         width: 1000px;
+          background-color: #e16162;
+          padding: 20px;
+          padding-top: 0px;
+          margin-left: 30px;
+       }
+       .sec_2
+       {
+        height: 500px;
+        width: 100%;
+        
+        display:flex;
+        flex-direction: row;
+       }
+       .sec_2_1{
+        height: 200px;
+        width: 300px;
+       
+        padding-right: 50px;
+       }
+       .sec_2_2{
+        height: 420px;
+        width: 200px;
+       
+        padding-left: 30px;
+        padding-right: 30px;
+       }
+       
     </style>
+    
 </head>
 <body>
-    <h1 class="h1">The Ocean Creatures..!</h1>
+     
+    <!--NAVBAR-->
+<div class="navbar-container flex text-secondary bg-dark">
+    <div class="logo">
+        <p>
+            <span>T</span>he<br/>
+            Grea<span>t</span>
+            Ou<span>t</span>doors
+        </p>
+    </div>
+    <div class="navbar-mid-sec flex">
+        <p class="navbar-menu">Home</p>
+        <p class="navbar-menu">Books</p>
+    </div>
+    <p class="navbar-menu">Contact Us</p>
+</div>
+
+<!--MENUBAR-->
+<div class="menubar text-dark">
+    <p class="menubar-item">Animals</p>
+    <p class="menubar-item">Birds</p>
+    <p class="menubar-item">Insects</p>
+    <p class="menubar-item">Plants</p>
+    <p class="menubar-item">Water Bodies</p>
+</div>
      <div class="navbar"> 
-        <div class="div_1">
-         <p>
-         <span style="color: #f9bc60; text-align: end;"><img src="./../imgs/water_animal _1.jpg" class="nav_img"> &nbsp;T</span>he<br>
-         Ocea<span style="color: #f9bc60;text-align: end;">n</span> <br>
-         <span style="color: #f9bc60;">C</span>reatures..!
-         </p>
-        </div>
-         <div class="div_2">
-            <span class="menu_item">Cutlassfish</span>
-            <span class="menu_item" >Phronima</span>
-            <span class="menu_item" >Axolotl</span>
-            <span class="menu_item" >Barbie sea pig</span>
-            <span class="menu_item">Blue glaucus</span>
-            <span class="menu_item">Sea bunny</span>
-            <span class="menu_item">Leaf slug</span>
-            <span class="menu_item">Spider</span>
-            <span class="menu_item">Glass octopus</span>
-            <span class="menu_item">Flying gurnard</span>
+         <div class="div_2 ">
+            <span class="menu_item"> <a href="#1" style="color: whitesmoke;">Cutlassfish</a></span>
+            <span class="menu_item" > <a href="#2"style="color: whitesmoke;">Phronima</a></span>
+            <span class="menu_item" > <a href="#3"style="color: whitesmoke;">Axolotl</a></span>
+            <span class="menu_item" > <a href="#4"style="color: whitesmoke;"  >Barbie sea pig</a></span>
+            <span class="menu_item"> <a href="#5" style="color: whitesmoke;">Blue glaucus</a></span>
+            <span class="menu_item"><a href="#6" style="color: whitesmoke;">Sea bunny</a></span>
+            <span class="menu_item"><a href="#7" style="color: whitesmoke;">Leaf slug</a></span>
+            <span class="menu_item"><a href="#8" style="color: whitesmoke;">Spider</a></span>
+            <span class="menu_item"><a href="#9" style="color: whitesmoke;">Glass octopus</a></span>
+            <span class="menu_item"><a href="#10" style="color: whitesmoke;">Flying gurnard</a></span>
          </div>
     </div>
+    <!--MAIN HEADING-->
+    <h1 class=" main-heading text-secondary" style="font-size:60px;">The<br/>Ocean <br/>Creatures..!</h1>
+
       <div class="div_3">
         <p class="p">"The Sea Is An Underwater Museum still Awaiting Its Visitors..!"</p>
-        <img src="./../imgs/water_animal_2.webp" class="img_1"   alt="">
+        <img src="./../imgs/water_animal_2.webp" class="img_1"  alt="">
         <img src="./../imgs/water animal_3.webp"class="img_2"   alt="">
     </div> 
-    
+      <p class="p" style="margin-top: 0px; margin-bottom: 90px;">"Welcome to Ocean Beauty..!!"</p>
+    <div class="card_container">
+        <div class="card">
+         <h3 class="card_heading">Cutlass-fish</h3>
+         <img  class="card_img"   src="./../imgs/catlass.jpg" alt="">
+         <p class="card_p"> The cutlassfish, also called ribbonfish, is a fish species characterized by its chrome-plated hue and long flat body.<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Cutlassfish&ved=2ahUKEwj3tYrqlf6HAxVa4TgGHfiIDwoQFnoECBYQAQ&usg=AOvVaw0-P8fQ8VKFjr0YKIcc3O0H">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+         </div>
+        <div class="card">
+         <h3 class="card_heading">Phronima</h3>
+         <img  class="card_img"   src="./../imgs/Phronima.jpg" alt="">
+         <p class="card_p">Phronima sedentaria is a species of amphipod crustaceans found in oceans at a depth of up to 1 km (0.6 mi).<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Phronima&ved=2ahUKEwjInoyQlv6HAxX61zgGHT-nMLAQFnoECBoQAQ&usg=AOvVaw2VHUOQfXZFjasZCUyNHpLE">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card">
+         <h3 class="card_heading">Axolotl</h3>
+         <img  class="card_img"   src="./../imgs/axolotl_1.webp" alt="">
+         <p class="card_p"> The word “axolotl” comes from the Nahuatl language of the Aztecs, and means “water dog & spend their whole lives underwater. .<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Axolotl&ved=2ahUKEwjtq_Oelv6HAxXdxDgGHX2kDDsQFnoECCMQAQ&usg=AOvVaw0oV1iSbe0PUOnlU2_vf9EV">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card">
+         <h3 class="card_heading">Barbie Sea pig</h3>
+         <img  class="card_img"   src="./../imgs/barbie-sea-pig.jpg" alt="">
+         <p class="card_p"> The pink amperima sea cucumber, nicknamed the “Barbie pig,” is one of the largest invertebrates living on the deep-sea floor..<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Scotoplanes_globosa&ved=2ahUKEwiv4J3Elv6HAxVl9DgGHcB7BtQQFnoECBUQAQ&usg=AOvVaw37NTP5A-SEnhHTT_nq_Pyi">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card">
+         <h3 class="card_heading">Blue Glaucus</h3>
+         <img  class="card_img"   src="./../imgs/Blue_glaucus.jpg" alt="">
+         <p class="card_p"> blue glaucus,is also called the blue dragon, sea swallow, or blue angel, is a brightly colored nudibranch commonly known sea slugs..<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Glaucus_atlanticus&ved=2ahUKEwjgqs7blv6HAxUlwjgGHSpyB60QFnoECCMQAQ&usg=AOvVaw3tC3sEoUrBLmv6xdvZu3d4">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card_1">
+         <h3 class="card_heading">Sea Bunny</h3>
+         <img  class="card_img"   src="./../imgs/Sea-Bunny.jpg" alt="">
+         <p class="card_p">Sea bunnies are actually a species of sea slug  and were first described by renowned Japanese marine biologist Kikutaro Baba..<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Jorunna_parva&ved=2ahUKEwio4qTplv6HAxVjyTgGHetkDAoQFnoECBMQAQ&usg=AOvVaw2LydXw7ttHkzetwwjCVjdc">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card_1">
+         <h3 class="card_heading">Leaf Slug</h3>
+         <img class="card_img"   src="./../imgs/leaf_slug.jpg" alt="">
+         <p class="card_p">The creature known as a Leaf Sheep or “Sea Sheep" consumes seaweed and produces energy through photosynthesis.<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Costasiella_kuroshimae&ved=2ahUKEwiykaz3lv6HAxWJyzgGHcXMAEMQFnoECBoQAQ&usg=AOvVaw1GEe1BZU2ILxNvW0AETA-b">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card_1">
+         <h3 class="card_heading">Sea spider</h3>
+         <img class="card_img"   src="./../imgs/spider.webp" alt="">
+         <p class="card_p">Sea spiders swim and crawl along sandy area. They live in tropical climates and the frigid arctic, from shallow water
+         to deep ocean.<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Sea_spider&ved=2ahUKEwj1iLeFl_6HAxXUzjgGHcbBCpYQFnoECBQQAQ&usg=AOvVaw3fWfedF5qf6U8vMVsQ6A2P">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card_1">
+         <h3 class="card_heading">Glass Octopus</h3>
+         <img class="card_img"   src="./../imgs/glass_octopus.webp" alt="">
+         <p class="card_p">The glass octopus is one of the most mysterious creatures of the deep sea. With transparent skin and only a few visible organs.<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Glass_octopus&ved=2ahUKEwiB3qqUl_6HAxVu1zgGHSNdB-gQFnoECBcQAQ&usg=AOvVaw3Am_HlG-CMV5mcDvaeRajY">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+        <div class="card_1">
+         <h3 class="card_heading">flying Gurnard</h3>
+         <img class="card_img"   src="./../imgs/flying_gurnard.jpg" alt="">
+         <p class="card_p"> Found in warm and tropical seas, flying gurnards are elongated fish with very large pectoral fins, each of which is divided into a shorter.<br>
+         <a  class="anchor" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Flying_gurnard&ved=2ahUKEwjzkqahl_6HAxVKyjgGHeveKlwQFnoECBMQAQ&usg=AOvVaw0EiykFE6a4DjEX971KQCVV">Read More <img class="arrow"  src="./../imgs/right_arrow.png" alt=""></a>
+         </p>
+        </div>
+
+      </div>
+
+
+
 </body>
 </html>
