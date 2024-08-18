@@ -4,3 +4,55 @@
     box-sizing: 0;
 }
 
+
+.main-head-section{
+    background-color: rgb(122, 122, 185);
+    height: 350px;
+}
+
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+
+}
+
+.animal-heading{
+  
+    margin: 140px;
+}
+
+.animal-img{
+    height: 349px;
+    width: 650px;
+}
+
+/* .......................................................... */
+
+
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
