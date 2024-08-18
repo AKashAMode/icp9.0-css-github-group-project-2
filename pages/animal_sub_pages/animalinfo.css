@@ -47,7 +47,8 @@ section:hover{
 
 img {
     max-width: 100%;
-    height: 420px;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
 }
