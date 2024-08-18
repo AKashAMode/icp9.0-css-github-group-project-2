@@ -68,3 +68,27 @@ a:hover {
     text-decoration: underline;
 }
 
+.back-btn-contain{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.back-btn{
+    height: 50px;
+    width: 130px;
+    margin: 2px auto;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+    background: #3498db;
+    border-radius: 10px;
+    
+}
+
+.back-btn:hover{
+
+box-shadow: 0 8px 16px rgba(2, 71, 60, 0.7);
+
+}
