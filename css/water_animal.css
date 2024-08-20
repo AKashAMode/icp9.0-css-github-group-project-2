@@ -261,7 +261,7 @@ span{
 
    }
    .card{
-    background-color:#004643;
+    background-color:#abd1c6;
     height: 370px;
     width: 250px;
     margin-left: 40px;
@@ -274,7 +274,7 @@ span{
      box-shadow: 10px 10px 20px 4px #001e1d;
    }
    .card_1{
-    background-color:#004643;
+    background-color:#abd1c6;
     height: 370px;
     width: 250px;
     margin-left: 40px;
@@ -294,10 +294,10 @@ span{
     font-size: 25px;
     font-family: cursive;
     color: #001e1d;
-
+    
    }
    .card_heading:hover{
-    color: #f9bc60;
+    color: #e16162;
    }
    .card_img{
     height: 130px;
@@ -316,14 +316,14 @@ span{
    .card_p{
     text-align: center;
     font-size: 17px;
-    color: #abd1c6;
+    color:#001e1d;
    }
    .arrow{
     height: 15px;
     width: 20px;
    }
    .anchor{
-    color: #f9bc60;
+    color: #001e1d;
     font-size: bold;
     text-align: center;
    }
@@ -342,16 +342,21 @@ span{
     flex-direction: row;
     padding: 40px;
     padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
    }
    .p1{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 42px;
     text-align: center;
     color:#001e1d;
     text-shadow: 0.7px 0.7px #e16162;
     margin-bottom: 0px;
-   padding-top:20px;
-   background-color: #abd1c6;
+    margin-top: 0px;
+   padding-top:10px;
+   padding-bottom: 10px;
+   padding-left: 130px;
+   background-color: #abd1c6;padding-top: 10px;
    }
    .p1:hover{
     color: #e16162;
@@ -360,7 +365,7 @@ span{
     height: 350px;
     width: 300px;
     margin-right: 50px;
-    margin-top:80px;
+    margin-top:110px;
     border: 1.7px solid #001e1d;
     border-radius: 30px;
     box-shadow: 10px 10px 20px 2px #001e1d;
