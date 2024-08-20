@@ -115,6 +115,7 @@ span{
     color: #abd1c6;
     background-color: #001e1d;
 }
+
 /*FOOTER*/
 .footer-container{
     display:flex;
@@ -146,6 +147,8 @@ span{
     height: 30px;
     width: 30px;
 }
+
+
 /*-------*/
 .title_div{
     background-color: #e16162;
@@ -239,6 +242,7 @@ span{
     width: 100%;
     background-color:#004643;
     margin-top:none;
+    display: inline-block;
    
    }
    .p{
