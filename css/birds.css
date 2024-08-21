@@ -48,7 +48,8 @@
  .card-container2{
     display:flex;
     background-color:#004643;
- 
+    justify-content:center;
+    margin:15px ;
 }
 
 .card2{
@@ -56,16 +57,53 @@
     background-color: white;
     width: 330px;
     font-size:20px;
-    padding: 25px 35px;
+    padding: 35px 45px;
     border-radius: 5px;
     border: 10px double none ;
-    margin: 20px;
+    margin: 20px 20px 35px 20px;
     text-align:center;
  }
 
+ .card-container3{
+    display:flex;
+    background-color:#004643;
+    justify-content:center;
+    margin:15px ;
+}
+
+.card3{
+    color:#0f3433;
+    background-color: white;
+    width: 330px;
+    font-size:20px;
+    padding: 35px 45px;
+    border-radius: 5px;
+    border: 10px double none ;
+    margin: 20px 20px 35px 20px;
+    text-align:center;
+ }
+
+
+ .btn:hover{
+        box-shadow: 5px 8px 18px 5px #abd1c6 ;
+ }
+
   .text-light2{
-    color: white;
+    color: #001e1d;
     font-size:30px;
+}
+
+
+
+.btn{
+    color:#fffffe;
+    font-size:18px;
+    background-color: #004643;
+    border:0px solid none;
+    border-radius: 4px;
+    height:40px;
+    width:150px;
+    cursor: pointer;
 }
 
 .paragraph{
