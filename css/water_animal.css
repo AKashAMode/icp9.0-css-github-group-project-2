@@ -221,9 +221,9 @@ span{
   
    .img_1{
     height: 500px;
-    width:840px;
+    width:750px;
     margin-top: 10px;
-    padding-left: 4px;
+    padding-left: 10px;
     border-radius: 15px 0px 0px 15px;
     margin-bottom: 0px;
     box-shadow: -10px 0px 30px 4px #001e1d;
@@ -231,7 +231,7 @@ span{
    }
    .img_2{
     height: 500px;
-    width:845px;
+    width: 750px;
     margin-top:0px;
     border-radius: 0px 15px 15px 0px;
     margin-bottom: 0px;
