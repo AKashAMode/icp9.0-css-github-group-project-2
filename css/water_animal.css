@@ -4,6 +4,11 @@ body{
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: #abd1c6;
+}
+
 .heading-text{
     color: #fffffe;
 }
@@ -191,15 +196,15 @@ span{
 
     }
    .menu_item{
-        padding: 27px;
-        font-size: 25px;
+        padding: 22px;
+        font-size: 24px;
         cursor: pointer;
         color:#abd1c6;
         
     }
    .menu_item:hover{
-    color: whitesmoke;
-    background-color: #e16162;
+    color: #004643;
+    background-color: #abd1c6;
     border-radius: 50px;
     height: 30%;
    font-weight:600;
@@ -216,9 +221,9 @@ span{
   
    .img_1{
     height: 500px;
-    width:840px;
+    width:750px;
     margin-top: 10px;
-    padding-left: 4px;
+    padding-left: 10px;
     border-radius: 15px 0px 0px 15px;
     margin-bottom: 0px;
     box-shadow: -10px 0px 30px 4px #001e1d;
@@ -226,7 +231,7 @@ span{
    }
    .img_2{
     height: 500px;
-    width:845px;
+    width: 750px;
     margin-top:0px;
     border-radius: 0px 15px 15px 0px;
     margin-bottom: 0px;
@@ -266,9 +271,9 @@ span{
    .card{
     background-color:#abd1c6;
     height: 370px;
-    width: 250px;
-    margin-left: 40px;
-    margin-right:40px;
+    width: 240px;
+    margin-left: 30px;
+    margin-right:30px;
     justify-content: space-around;
     border-radius: 20px;
     border:  2px solid #001e1d;
@@ -279,9 +284,9 @@ span{
    .card_1{
     background-color:#abd1c6;
     height: 370px;
-    width: 250px;
-    margin-left: 40px;
-    margin-right:40px;
+    width: 240px;
+    margin-left: 30px;
+    margin-right:30px;
     margin-top: 90px;
     justify-content: space-around;
     border-radius: 20px;
