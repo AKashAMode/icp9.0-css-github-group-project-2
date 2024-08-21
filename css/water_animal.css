@@ -4,6 +4,11 @@ body{
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: #abd1c6;
+}
+
 .heading-text{
     color: #fffffe;
 }
@@ -198,8 +203,8 @@ span{
         
     }
    .menu_item:hover{
-    color: whitesmoke;
-    background-color: #e16162;
+    color: #004643;
+    background-color: #abd1c6;
     border-radius: 50px;
     height: 30%;
    font-weight:600;
