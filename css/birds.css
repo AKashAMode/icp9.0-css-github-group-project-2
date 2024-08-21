@@ -44,8 +44,7 @@
     font-size:30px;
 }
 
-
- .card-container2{
+.card-container2{
     display:flex;
     background-color:#004643;
     justify-content:center;
@@ -83,17 +82,14 @@
     text-align:center;
  }
 
-
  .btn:hover{
         box-shadow: 5px 8px 18px 5px #abd1c6 ;
  }
 
-  .text-light2{
+.text-light2{
     color: #001e1d;
     font-size:30px;
 }
-
-
 
 .btn{
     color:#fffffe;
