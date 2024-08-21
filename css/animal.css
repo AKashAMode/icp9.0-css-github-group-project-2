@@ -202,14 +202,11 @@ span{
 }
 
 
-
-
 .video-width {
     width: 440px;
     height: 250px;
     border:none;
     border-radius: 20px;
-   
 
 }
 
@@ -221,16 +218,18 @@ span{
 .contain-info{
     position: absolute;
     bottom: 35px;
-    height: 45px;
-    background: #ffffff;
+    height: 50px;
     border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #abd1c6;
 }
 
 .text-center{
     text-align: center;
     padding: 5px;
-   background-color: #abd1c6;
+    font-size: 16px;
+  
 }
 
 
@@ -334,17 +333,23 @@ span{
 
 .learn-more-btn{
     text-decoration: none;
-    background: #72d475;
-    color: #fff;
+    padding: 20px 15px;
     font-size: 15px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: bold;
+    border: #abd1c6 solid 1px;
+    background-color: #000;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100px;
+    height: 35px;
+    color: #abd1c6;
+    text-align: center;
     cursor: pointer;
 }
 
 .learn-more-btn:hover{
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        background-color: #abd1c6;
+        color: #001e1d;
+        transition: 0.3s;
 }
 
 
