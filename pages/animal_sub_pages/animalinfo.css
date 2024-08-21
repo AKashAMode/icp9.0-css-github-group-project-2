@@ -6,8 +6,9 @@
 
 
 .main-head-section{
-    background-color: rgb(122, 122, 185);
+    background-color: #004643;
     height: 350px;
+    color: #fff;
 }
 
 .head-section{
@@ -77,22 +78,41 @@ a:hover {
     justify-content: center;
 }
 
+.gallery-heading{
+    margin-top: 10px;
+    border: 1px solid #000;
+    background-color: #004643;
+    border-radius: 10px;
+    max-width: 75px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
 
 
 .back-btn{
-    height: 50px;
-    width: 130px;
-    margin: 2px auto;
-    text-align: center;
-    border: 2px solid black;
+    text-decoration: none;
+    padding: 20px 15px;
     font-size: 15px;
-    background: #3498db;
-    border-radius: 10px;
+    border: 1px solid #abd1c6;
+    background-color: #000;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100px;
+    height: 35px;
+    color: #abd1c6;
+    text-align: center;
+    cursor: pointer;
     
 }
 
-.back-btn:hover{
 
-box-shadow: 0 8px 16px rgba(2, 71, 60, 0.7);
+
+
+.back-btn:hover{
+    background-color: #004643;
+    color: #ffffff;
+    transition: 0.3s;
+    border: 1px solid #000;
 
 }
