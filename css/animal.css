@@ -116,13 +116,13 @@ span{
     align-items: center;
     position: sticky;
     margin: 0px;
-    padding: 0px 260px 0px 260px;
+    padding: 0px 300px 0px 260px;
     height: 30px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
         
 .menubar-item{
-    padding: 3px 60px;  
+    padding: 3px 50px;  
     font-size: 17px;
 }
     
