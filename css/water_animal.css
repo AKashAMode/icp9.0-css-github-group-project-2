@@ -332,10 +332,20 @@ span{
    }
    .anchor{
     color: #001e1d;
-    font-size: bold;
+    font-size: 18px;
     text-align: center;
    }
 
+   .anchor:hover{
+    background-color: #001e1d;
+    color:  #abd1c6;
+    transition: 0.1s;    
+    border-radius: 4px;
+    padding: 6px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+   }
 
 
    /*second page  */
@@ -396,7 +406,8 @@ span{
      height: 530px;
      width: 1000px;
       background-color: #004643;
-      padding: 20px;
+      color: #abd1c6;
+      padding: 30px;
       padding-top: 0px;
       margin-left: 50px;
       border: 1.5px solid #001e1d;
@@ -426,7 +437,5 @@ span{
    .sec_2_2{
     height: 420px;
     width: 200px;
-   
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 60px 30px 10px 340px;
    }
