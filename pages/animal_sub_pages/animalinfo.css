@@ -27,13 +27,12 @@
     width: 650px;
 }
 
-
-p{
+p {
     font-size: 17px;
 }
 
 section {
-    background-color: white;
+    background-color: #004643;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -42,6 +41,11 @@ section {
 
 section:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.main-section{
+    background-color: #abd1c6;
+    color: #fff;
 }
 
 
