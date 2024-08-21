@@ -18,8 +18,11 @@ body {
 }
 /*star styling*/
 .star{
-    color: orange ;
+    color: rgb(255, 166, 0) ;
 
+}
+.star2{
+    color: black;
 }
 .str-text{
     color: #001e1d;
@@ -87,6 +90,7 @@ main {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px #001e1d;
+    height:600px    ;
     width: 300px;   
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
