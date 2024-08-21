@@ -78,11 +78,12 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 /* Card Styling */
 .card {
-    background: #fff;
+    background:#abd1c6;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px #001e1d;
