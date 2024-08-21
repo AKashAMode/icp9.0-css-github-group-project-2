@@ -45,8 +45,8 @@ margin: 9px auto;
 
 .buy-btn:hover{
     background-color: #0c6562;
-    color:	 #000000;
-    box-shadow: 0px 1px 10px;
+    
+    box-shadow: 0px 1px 10px #2d5239;
     transition: 0.3s;
     cursor: pointer;
 }
