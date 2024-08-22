@@ -357,7 +357,7 @@ span{
 
 footer{
     height: 260px;
-    background-color: #004643;
+    background-color: #001e1d;
 }
 .footer-container{
     display:flex;
@@ -402,7 +402,7 @@ footer{
     text-align: center;
     margin-bottom: 10px;
     padding: 5px;
-    color: #fff;
+    color: #abd1c6;
 }
 
 .social-media-container a{
@@ -412,16 +412,17 @@ footer{
 }
 
 .footer-icons{
+    margin: 3px;
     height: auto;
     width: 30px;
     padding: 10px 10px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #abd1c6;
 
 }
 
 .footer-copyright{
     text-align: center;
     margin-top: 8px;
-    color: #e8e4e6;
+    color: #abd1c6;
 }
