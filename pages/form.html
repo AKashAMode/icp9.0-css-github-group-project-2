@@ -5,13 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page</title>
     <link rel="stylesheet" href="./../css/style1.css">
-    <link rel="icon" href="./icons/planet-earth.png" type="png">
+    <link rel="icon" href="./../icons/planet-earth.png" type="png">
+    <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
+    <!--NAVBAR-->
+    <div class="navbar-container flex text-secondary bg-dark">
+        <div class="logo">
+            <p>
+                <span>T</span>he<br/>
+                Grea<span>t</span>
+                Ou<span>t</span>doors
+            </p>
+        </div>
+        <div class="navbar-mid-sec flex">
+            <p class="navbar-menu">Home</p>
+            <p class="navbar-menu">Books</p>
+        </div>
+        <p class="navbar-menu">Contact Us</p>
+        <a href="./../index.html">Home Page</a>
+        <a href="water_animal.html">Water and Animal Page</a>
+    </div><br><br>
     <img src="./../imgs/formimage/shopping.png" alt="shopping" height="40px" width="40px">
-    <b>BookMyBook</b>.com
+    <b class="header">BookMyBook</b><span class="header">.com</span>
     <hr>
-    <h3>1.Your Delivery Address</h3>
+    <h3 class="header">1.Your Delivery Address</h3>
     <form class="main1">
         <label for="Name">Enter Your Name : </label>
         <input type="text" id="Name" placeholder="Enter Your Name" required>
@@ -46,7 +64,7 @@
         <button class="button">SUBMIT</button>
 >
     </form>
-    <h3>2. Select a payment method</h3>
+    <h3 class="header">2. Select a payment method</h3>
     <form class="main2">
         <input type="radio" name="paymenttype" id="cashondelivery">
         <label for="cashondelivery" >Cash on delivery</label>
@@ -65,7 +83,48 @@
         <button class="button">SUBMIT</button>
     </form>
 
-    <button class="button"><a href="placed.html">Place Your Order</a></button>
+    <button class="button"><a href="placed.html">Place Your Order</a></button><br><br>
+    <!--FOOTER-->
+    <hr/>
+    <div class="footer-container text-secondary ">
+        <div class="footer-logo">
+            <p>
+                <span>T</span>he<br/>
+                Grea<span>t</span>
+                Ou<span>t</span>doors
+            </p>
+        </div>
+        <div class="footer-menu">
+            <b>MENU</b><br/><br/>
+            Home<br/>
+            Books<br/>
+            Contact Us<br/>
+            Animals<br/>
+            Birds<br/>
+            Insects<br/>
+            <a href="./pages/water_animal.html">Water Bodies<br/></a>
+        </div>
+        <div class="footer-icons-container">
+            <b>CONTACT US</b><br/><br/>
+            <div>
+                <a href="https://mail.google.com/" target="_blank">
+                    <img  class="footer-icons" src="./../icons/envelope.png"><br/>
+                </a>
+                <a href="https://instagram.com/" target="_blank">
+                    <img  class="footer-icons" src="./../icons/instagram.png"><br/>
+                </a>
+                <a href="https://youtube.com/" target="_blank">
+                    <img  class="footer-icons" src="./../icons/youtube.png"><br/>
+                </a>
+                <a href="https://linkedin.com/" target="_blank">
+                    <img  class="footer-icons" src="./../icons/linkedin.png"><br/>
+                </a>
+            </div>
+        </div>
+    </div><br><br>
+            &nbsp;&nbsp;&nbsp;<a href="./../index.html">Home Page</a>&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;<a href="water_animal.html">Water and Animal Page</a>
+            <br><br><br>
     
 </body>
 </html>

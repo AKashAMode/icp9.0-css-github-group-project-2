@@ -14,9 +14,10 @@
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
+    cursor: pointer;    
 }
 .header{
-    color: #abd1c6;
+    color: #cee4de;    ;
 }
 .main2 {
     background-color: #004643;
