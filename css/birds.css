@@ -82,24 +82,24 @@
     text-align:center;
  }
 
- .btn:hover{
-        box-shadow: 5px 8px 18px 5px #abd1c6 ;
- }
-
 .text-light2{
     color: #001e1d;
     font-size:30px;
 }
 
 .btn{
-    color:#fffffe;
+    color:#abd1c6;
     font-size:18px;
-    background-color: #004643;
+    background-color: #001e1d;
     border:0px solid none;
     border-radius: 4px;
     height:40px;
     width:150px;
     cursor: pointer;
+}
+
+.btn:hover{
+   background-color: #abd1c6;
 }
 
 .paragraph{
