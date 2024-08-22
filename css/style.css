@@ -65,16 +65,17 @@ a{
     z-index: 2;
 }
 
-.navbar-menu a{
+.navbar-menu{
     border: #abd1c6 solid 1px;
     border-radius: 4px;
     padding: 4px;
     width: 80px;
     text-align: center;
     cursor: pointer;
+    color: #abd1c6;
 }
         
-.navbar-menu a:hover{
+.navbar-menu:hover{
     background-color: #abd1c6;
     color: #001e1d;
     transition: 0.3s;
