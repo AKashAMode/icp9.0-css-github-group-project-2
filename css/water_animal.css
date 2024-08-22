@@ -1,7 +1,11 @@
 a{
-    text-decoration: none;
-    color: #abd1c6;
+  text-decoration: none;
 }
+
+.w-menu_item a{
+  color: #abd1c6;
+}
+
 
 /*-------*/
 .title_div{
@@ -42,20 +46,23 @@ a{
         position:sticky;
 
     }
-   .menu_item{
-        padding: 22px;
+   .w-menu_item{
+        padding: 20px;
         font-size: 24px;
         cursor: pointer;
+        text-decoration: none;
         color:#abd1c6;
         
     }
-   .menu_item:hover{
-    color: #004643;
+   .w-menu_item a:hover{
     background-color: #abd1c6;
-    border-radius: 50px;
-    height: 30%;
-   font-weight:600;
-   }
+    color: #004643;
+    padding: 3px;
+    border-radius: 3px;
+    transition: 0.2s;
+  }
+    
+  
    .nav_img{
     width: 40px;
     background-color: #004643;
@@ -282,5 +289,5 @@ a{
    .sec_2_2{
     height: 420px;
     width: 200px;
-    padding: 60px 30px 10px 340px;
+    padding: 60px 30px 10px 200px;
    }

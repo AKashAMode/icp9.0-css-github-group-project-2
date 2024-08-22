@@ -112,13 +112,14 @@ span{
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
         
-.menubar-item{
+.menubar-item a{
     margin: 0px;
     padding: 3px 60px;  
     font-size: 17px;
+    color: #abd1c6;
 }
     
-.menubar-item:hover{
+.menubar-item a:hover{
     color: #abd1c6;
     background-color: #001e1d;
 }
