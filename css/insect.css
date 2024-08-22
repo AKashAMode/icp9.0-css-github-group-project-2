@@ -37,6 +37,7 @@
       padding-left: 60px;
       font-size: 25px;
       color: #001e1d;
+      text-decoration: none;
     }
     .textt{
       padding-bottom: 10px;
@@ -63,7 +64,7 @@
     padding: 20px 20px;
     margin: 50px;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom:10px;
     font-size: 20px;
     border:solid;
     border-color: 8px wheat;
@@ -109,6 +110,7 @@
     padding: 2px 20px;
     position: sticky;
     top: 0;
+    background-color: #001e1d;
   }
   
   .navbar-menu{
@@ -175,8 +177,9 @@
   }
   
   button:hover{
-    border: dashed 7px;
-    background-color:#f9bc60 ;
+    border: solid 8px;
+    background-color:#abd1c6 ;
+    color:#001e1d ;
     cursor: pointer;
   }
   
