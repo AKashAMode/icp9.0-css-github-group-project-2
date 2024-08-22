@@ -1,158 +1,7 @@
-body{
-    background-color: #004643;
-    margin: 0px;
-    padding: 0px;
-}
-
 a{
     text-decoration: none;
     color: #abd1c6;
 }
-
-.heading-text{
-    color: #fffffe;
-}
-
-.main-text{
-    color: #e8e4e6;
-}
-
-.bg-dark{
-    background-color: #001e1d;
-}
-
-.text-dark{
-    color: #abd1c6;
-}
-
-.bg-primary{
-    background-color: #004643;
-}
-
-.text-primary{
-    color: #004643;
-}
-
-.bg-secondary{
-    background-color: #abd1c6;
-}
-
-.text-secondary{
-    color: #abd1c6;
-}
-.bg-tertiary{
-    background-color: #f9bc60;
-}
-
-.text-tertiary{
-    color: #f9bc60;
-}
-
-/*NAVBAR*/
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-        
-.navbar-container{
-    height: 60px;
-    margin: 0px;
-    padding: 2px 20px;
-    position: sticky;
-    top: 0;
-}
-
-.navbar-menu{
-    border: #abd1c6 solid 1px;
-    border-radius: 4px;
-    padding: 4px;
-    width: 80px;
-    text-align: center;
-    cursor: pointer;
-    }
-        
-.navbar-menu:hover{
-    background-color: #abd1c6;
-    color: #001e1d;
-    transition: 0.3s;
-}
-        
-.logo{
-    font-family: Merriweather;
-    font-weight: bold;
-    font-size: 10px;
-    width: 60px;
-    text-align: end;
-    display:flex;
-    flex-direction: column;
-}
-        
-span{
-    color: #f9bc60;
-}
-        
-.navbar-mid-sec{
-    width: 280px;
-}
-
-/*MENUBAR*/
-.menubar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   position: sticky;
-    top: 70px;
-    margin: 0px;
-    padding: 0px 260px 0px 260px;
-    height: 30px;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-}
-        
-.menubar-item{
-    margin: 0px;
-    padding: 3px 60px;  
-    font-size: 17px;
-    color: #abd1c6;
-}
-    
-.menubar-item:hover{
-    color: #abd1c6;
-    background-color: #001e1d;
-}
-
-/*FOOTER*/
-.footer-container{
-    display:flex;
-    justify-content: space-around;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-}
-
-.footer-logo{
-    font-family: Merriweather;
-    font-weight: bold;
-    font-size: 50px;
-    width: 60px;
-    text-align: end;
-    display:flex;
-    flex-direction: row;
-}
-
-.footer-menu{
-    margin: auto 0px;
-}
-
-.footer-icons-container{
-    margin: auto 0px;
-}
-
-.footer-icons{
-    margin: 3px;
-    height: 30px;
-    width: 30px;
-}
-
 
 /*-------*/
 .title_div{
@@ -177,13 +26,11 @@ span{
         padding-left: 20px;
         display: flex;
         height: 70px;
+        
         margin-bottom: 0px;
         margin-top: 15px;
         position: fixed;
-        width: 99%;
-        border-radius:20px ;
-
-
+        width: 100%;
     }
     
     
@@ -332,10 +179,20 @@ span{
    }
    .anchor{
     color: #001e1d;
-    font-size: bold;
+    font-size: 18px;
     text-align: center;
    }
 
+   .anchor:hover{
+    background-color: #001e1d;
+    color:  #abd1c6;
+    transition: 0.1s;    
+    border-radius: 4px;
+    padding: 6px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+   }
 
 
    /*second page  */
@@ -358,7 +215,7 @@ span{
     font-size: 42px;
     text-align: center;
     color:#001e1d;
-    text-shadow: 0.7px 0.7px #e16162;
+    text-shadow: 1.1px 1.1px #28dad4;
     margin-bottom: 0px;
     margin-top: 0px;
    padding-top:10px;
@@ -366,9 +223,7 @@ span{
    padding-left: 130px;
    background-color: #abd1c6;padding-top: 10px;
    }
-   .p1:hover{
-    color: #e16162;
-   }
+
    .img_div{
     height: 350px;
     width: 300px;
@@ -396,7 +251,8 @@ span{
      height: 530px;
      width: 1000px;
       background-color: #004643;
-      padding: 20px;
+      color: #abd1c6;
+      padding: 30px;
       padding-top: 0px;
       margin-left: 50px;
       border: 1.5px solid #001e1d;
@@ -426,7 +282,5 @@ span{
    .sec_2_2{
     height: 420px;
     width: 200px;
-   
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 60px 30px 10px 340px;
    }
