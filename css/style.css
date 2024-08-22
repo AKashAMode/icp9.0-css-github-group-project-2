@@ -65,7 +65,7 @@ a{
     z-index: 2;
 }
 
-.navbar-menu{
+.navbar-menu a{
     border: #abd1c6 solid 1px;
     border-radius: 4px;
     padding: 4px;
@@ -74,7 +74,7 @@ a{
     cursor: pointer;
 }
         
-.navbar-menu:hover{
+.navbar-menu a:hover{
     background-color: #abd1c6;
     color: #001e1d;
     transition: 0.3s;
