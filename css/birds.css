@@ -91,15 +91,17 @@
     color:#abd1c6;
     font-size:18px;
     background-color: #001e1d;
-    border:0px solid none;
-    border-radius: 4px;
+    border:#abd1c6 solid 2px;
+    border-radius:5px;
     height:40px;
     width:150px;
     cursor: pointer;
 }
 
 .btn:hover{
-   background-color: #abd1c6;
+    background-color: #abd1c6;
+    color: #001e1d;
+    transition: 0.3s;
 }
 
 .paragraph{
