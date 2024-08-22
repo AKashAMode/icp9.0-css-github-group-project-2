@@ -1,0 +1,137 @@
+
+/* Basic Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#abd1c6;  
+}
+
+/*star styling*/
+.star{
+    color: rgb(255, 166, 0) ;
+
+}
+.star2{
+    color: black;
+}
+.str-text{
+    color: #001e1d;
+}
+
+/*price stylying */
+.price-text{
+    color: #001e1d;
+    font-size: large;
+}
+
+/*buy button style*/
+.buy-btn{
+    background-color: #001e1d;
+color: #abd1c6;
+border-radius:  20px;
+padding: 5px 20px;
+border: 2px solid#2d5239;
+display: block;
+margin: 9px auto;
+
+}
+
+.buy-btn:hover{
+    background-color: #0c6562;
+    
+    box-shadow: 0px 1px 10px #2d5239;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Header Styling */
+header {
+    background-color: #004643;
+    color: #fffe;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Card Container Styling */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+/* Card Styling */
+.card {
+    background:#abd1c6;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #001e1d;
+    height:600px    ;
+    width: 300px;   
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px #001e1d;
+    cursor: pointer;
+}
+
+/* Card Image Styling */
+.card-img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+/* Card Content Styling */
+.card-content {
+    padding: 19px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color:#001e1d ;
+    margin-bottom: 9px;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #004643;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position:sticky;
+    width: 100%;
+    bottom: 0;
+}
