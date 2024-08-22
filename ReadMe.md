@@ -46,4 +46,4 @@ Our project offers a comprehensive online platform for book lovers, providing a 
 
 
 
-[ Visit to website ]https://thegreatoutdoors.netlify.app/
+[ Visit to website ]https://thegreatoutdoorss.netlify.app
