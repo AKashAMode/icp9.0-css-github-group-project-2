@@ -1,0 +1,42 @@
+.main1{
+    background-color: #004643;
+    color: #abd1c6;
+    height: 270px;
+    width: 550px;
+    margin: 20px;
+    padding: 20px;
+    border: 2 px solid black;
+    border-radius: 10px;
+}
+.button {
+    background-color: #f9bc60;
+    color: #001e1d; border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;    
+}
+.header{
+    color: #cee4de;    ;
+}
+.main2 {
+    background-color: #004643;
+    color: #abd1c6;
+    height: 210px;
+    width:550px;
+    margin: 20px;
+    padding: 20px;
+    border: 2 px solid black;
+    border-radius: 10px;
+}
+.main3 {
+     background-color: #004643;
+    color: #abd1c6;
+    height: 230px;
+    width: 550px;
+    margin: 20px;
+    padding: 20px;
+    border: 2 px solid black;
+    border-radius: 10px;
+
+}
