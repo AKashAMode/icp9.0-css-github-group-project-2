@@ -1,5 +1,5 @@
 # The Great Outdoors
-## Project Overview 
+## Project Overview   
 Welcome to The Great Outdoors
 
 The Great Outdoors is an interactive and informative website that delves into the wonders of the natural world. The project consists of seven engaging pages: Home, Book, Animals, Birds, Insects, Water Bodies, and Contact Us.
@@ -10,7 +10,7 @@ The Great Outdoors is an interactive and informative website that delves into th
 
  
 ## Objectives
-Plan to achieve by the end of project.
+Plan to achieve by the end of the project.
 
 - To create an interactive and informative website about the natural world.
 - To showcase diverse species of animals, birds, insects, and water bodies.
